@@ -1,0 +1,84 @@
+{
+  "manifestVersion": "1.0",
+  "repository": {
+    "name": "JuLogic Build System",
+    "organization": "JuLogic404",
+    "description": "Repositório oficial da toolchain do JuLogic IDE",
+    "lastUpdated": "2026-07-07T00:00:00Z"
+  },
+  "minimumIdeVersion": "1.0.0",
+  "packages": [
+    {
+      "id": "cmdline-tools",
+      "name": "Android SDK Command-line Tools",
+      "version": "14742923",
+      "category": "sdk",
+      "architecture": "arm64-v8a",
+      "platform": "linux",
+      "filename": "commandlinetools-linux-14742923_latest.zip",
+      "downloadUrl": "",
+      "sha256": "",
+      "size": "",
+      "compressed": true,
+      "installFolder": "sdk/cmdline-tools/latest",
+      "required": true,
+      "dependencies": [],
+      "description": "Ferramentas oficiais de linha de comando do Android SDK."
+    },
+    {
+      "id": "jdk",
+      "name": "OpenJDK",
+      "version": "21.0.11",
+      "category": "jdk",
+      "architecture": "arm64-v8a",
+      "platform": "linux",
+      "filename": "OpenJDK21U-jdk_aarch64_linux_hotspot_21.0.11_10.tar.gz",
+      "downloadUrl": "",
+      "sha256": "",
+      "size": "",
+      "compressed": true,
+      "installFolder": "jdk",
+      "required": true,
+      "dependencies": [],
+      "description": "OpenJDK utilizado pelo JuLogic IDE."
+    },
+    {
+      "id": "gradle",
+      "name": "Gradle",
+      "version": "9.6.1",
+      "category": "build",
+      "architecture": "all",
+      "platform": "all",
+      "filename": "gradle-9.6.1-bin.zip",
+      "downloadUrl": "",
+      "sha256": "",
+      "size": "",
+      "compressed": true,
+      "installFolder": "gradle",
+      "required": true,
+      "dependencies": [
+        "jdk"
+      ],
+      "description": "Sistema oficial de build."
+    },
+    {
+      "id": "kotlin",
+      "name": "Kotlin Compiler",
+      "version": "2.4.0",
+      "category": "compiler",
+      "architecture": "all",
+      "platform": "all",
+      "filename": "kotlin-compiler-2.4.0.zip",
+      "downloadUrl": "",
+      "sha256": "",
+      "size": "",
+      "compressed": true,
+      "installFolder": "kotlin",
+      "required": true,
+      "dependencies": [
+        "jdk"
+      ],
+      "description": "Compilador oficial Kotlin."
+    }
+  ]
+}
