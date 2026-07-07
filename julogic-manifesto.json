@@ -1,0 +1,133 @@
+{
+  "versaoManifesto": "1.0",
+
+  "repositorio": {
+    "id": "julogic-repository",
+    "nome": "JuLogic Repository",
+    "organizacao": "JuLogic404",
+    "url": "",
+    "geradoEm": "2026-07-07T00:00:00Z"
+  },
+
+  "ide": {
+    "nome": "JuLogic IDE",
+    "versaoMinima": "1.0.0",
+    "ultimaVersao": "1.0.0",
+    "canalAtualizacao": "estavel"
+  },
+
+  "repositorios": {
+
+    "sistemaCompilacao": {
+      "repositorio": "julogic-build-system",
+      "manifesto": "build-system.json"
+    },
+
+    "servidoresLinguagem": {
+      "repositorio": "julogic-language-servers",
+      "manifesto": "language-servers.json"
+    },
+
+    "plugins": {
+      "repositorio": "julogic-plugins",
+      "manifesto": "plugins.json"
+    },
+
+    "modelosProjeto": {
+      "repositorio": "julogic-templates",
+      "manifesto": "templates.json"
+    },
+
+    "inteligenciaArtificial": {
+      "repositorio": "julogic-ai",
+      "manifesto": "ai.json"
+    }
+
+  },
+
+  "recursos": {
+
+    "sistemaCompilacao": true,
+    "servidoresLinguagem": true,
+    "plugins": true,
+    "modelosProjeto": true,
+    "terminal": true,
+    "git": true,
+    "gradle": true,
+    "java": true,
+    "kotlin": true,
+    "xml": true,
+    "html": true,
+    "css": true,
+    "javascript": true,
+    "markdown": true,
+    "json": true,
+    "yaml": true,
+    "depurador": true,
+    "inteligenciaArtificial": true,
+    "gerenciadorSdk": true,
+    "gerenciadorPacotes": true,
+    "gerenciadorTemas": true,
+    "gerenciadorAtualizacoes": true
+
+  },
+
+  "downloads": {
+
+    "downloadsParalelos": 4,
+    "verificarSha256": true,
+    "continuarDownloads": true,
+    "permitirEspelhos": true,
+    "tentativas": 3
+
+  },
+
+  "caminhos": {
+
+    "jdk": "toolchain/jdk",
+    "gradle": "toolchain/gradle",
+    "sdk": "toolchain/sdk",
+    "ferramentasLinhaComando": "toolchain/sdk/cmdline-tools/latest",
+    "platformTools": "toolchain/sdk/platform-tools",
+    "buildTools": "toolchain/sdk/build-tools",
+    "platforms": "toolchain/sdk/platforms",
+    "ndk": "toolchain/sdk/ndk",
+    "cmake": "toolchain/sdk/cmake",
+    "kotlin": "toolchain/kotlin",
+    "plugins": "plugins",
+    "modelosProjeto": "templates",
+    "servidoresLinguagem": "language-servers",
+    "cache": "cache",
+    "logs": "logs"
+
+  },
+
+  "indices": {
+
+    "sistemaCompilacao": "build-system.json",
+    "servidoresLinguagem": "language-servers.json",
+    "plugins": "plugins.json",
+    "modelosProjeto": "templates.json",
+    "inteligenciaArtificial": "ai.json",
+    "temas": "themes.json",
+    "noticias": "news.json",
+    "licencas": "licenses.json",
+    "compatibilidade": "compatibility.json"
+
+  },
+
+  "seguranca": {
+
+    "verificarChecksum": true,
+    "verificarAssinatura": false,
+    "permitirPacotesNaoAssinados": false
+
+  },
+
+  "telemetria": {
+
+    "habilitada": false
+
+  }
+
+  }
