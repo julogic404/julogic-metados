@@ -1,1 +1,94 @@
-
+{
+  "versaoManifesto": "1.0",
+  "ultimaAtualizacao": "2026-08-08T00:00:00Z",
+  "repositorio": {
+    "id": "julogic-sistema-compilacao",
+    "nome": "JuLogic Sistema de Compilação",
+    "organizacao": "julogic404",
+    "urlReleases": "https://github.com/julogic404/julogic-sistema-compilacao/releases",
+    "urlManifesto": "https://julogic404.github.io/JulogicIDE/repositorio/index.json"
+  },
+  "releaseAtual": {
+    "tag": "v1.0.0",
+    "publicadoEm": "2026-07-07",
+    "urlBase": "https://github.com/julogic404/julogic-sistema-compilacao/releases/download/v1.0.0/"
+  },
+  "componentes": {
+    "jdk": {
+      "publicadas": [
+        {
+          "versao": "21.0.11",
+          "arquivo": "OpenJDK21U-jdk_aarch64_linux_hotspot_21.0.11_10.tar.gz",
+          "abi": "arm64-v8a"
+        },
+        {
+          "versao": "17.0.19",
+          "arquivo": "OpenJDK17U-jdk_aarch64_linux_hotspot_17.0.19_10.tar.gz",
+          "abi": "arm64-v8a"
+        }
+      ]
+    },
+    "gradle": {
+      "publicadas": [
+        {
+          "versao": "9.6.1",
+          "arquivo": "gradle-9.6.1-bin.zip"
+        },
+        {
+          "versao": "9.0.0",
+          "arquivo": "gradle-9.0.0-bin.zip"
+        },
+        {
+          "versao": "8.14.3",
+          "arquivo": "gradle-8.14.3-bin.zip"
+        }
+      ]
+    },
+    "kotlin": {
+      "publicadas": [
+        {
+          "versao": "2.4.0",
+          "arquivo": "kotlin-compiler-2.4.0.zip"
+        },
+        {
+          "versao": "1.9.0",
+          "arquivo": "kotlin-compiler-1.9.0.zip"
+        }
+      ]
+    },
+    "cmdlineTools": {
+      "publicadas": [
+        {
+          "versao": "14742923",
+          "arquivo": "commandlinetools-linux-14742923_latest.zip"
+        }
+      ]
+    },
+    "platforms": {
+      "publicadas": [],
+      "pendentes": [
+        "android-34",
+        "android-36"
+      ]
+    },
+    "buildTools": {
+      "publicadas": [],
+      "pendentes": [
+        "36.0.0"
+      ]
+    },
+    "platformTools": {
+      "publicadas": [],
+      "pendentes": [
+        "35.0.2"
+      ]
+    }
+  },
+  "recomendacoes": {
+    "jdk": "21.0.11",
+    "gradle": "9.0.0",
+    "kotlin": "2.4.0",
+    "buildTools": "36.0.0",
+    "platform": "android-36"
+  }
+}
