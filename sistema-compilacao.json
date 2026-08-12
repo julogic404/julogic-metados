@@ -65,30 +65,45 @@
       ]
     },
     "platforms": {
-      "publicadas": [],
+      "publicadas": [
+        {
+          "versao": "35",
+          "arquivo": "platform-35_r02.zip"
+        }
+      ],
       "pendentes": [
         "android-34",
         "android-36"
       ]
     },
     "buildTools": {
-      "publicadas": [],
+      "publicadas": [
+        {
+          "versao": "34.0.4",
+          "arquivo": "build-tools-34.0.4-aarch64.tar.xz",
+          "abi": "arm64-v8a"
+        }
+      ],
       "pendentes": [
         "36.0.0"
       ]
     },
     "platformTools": {
-      "publicadas": [],
-      "pendentes": [
-        "35.0.2"
-      ]
+      "publicadas": [
+        {
+          "versao": "34.0.4",
+          "arquivo": "platform-tools-34.0.4-aarch64.tar.xz",
+          "abi": "arm64-v8a"
+        }
+      ],
+      "pendentes": []
     }
   },
   "recomendacoes": {
     "jdk": "21.0.11",
     "gradle": "9.0.0",
     "kotlin": "2.4.0",
-    "buildTools": "36.0.0",
-    "platform": "android-36"
+    "buildTools": "34.0.4",
+    "platform": "android-35"
   }
 }
