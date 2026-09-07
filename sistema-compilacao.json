@@ -69,12 +69,17 @@
         {
           "versao": "35",
           "arquivo": "platform-35_r02.zip"
+        },
+        {
+          "versao": "34",
+          "arquivo": "platform-34-ext8_r01.zip (espelho oficial dl.google.com)"
+        },
+        {
+          "versao": "36",
+          "arquivo": "platform-36_r02.zip (espelho oficial dl.google.com)"
         }
       ],
-      "pendentes": [
-        "android-34",
-        "android-36"
-      ]
+      "pendentes": []
     },
     "buildTools": {
       "publicadas": [
@@ -104,6 +109,6 @@
     "gradle": "9.0.0",
     "kotlin": "2.4.0",
     "buildTools": "34.0.4",
-    "platform": "android-35"
+    "platform": "android-34"
   }
 }
